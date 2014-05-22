@@ -18,9 +18,9 @@
 //
 
 #define MFMinRpm        1000
-#define MFMaxRpm        6000
+#define MFMaxRpm        8000
 #define MFBaseRpm	    1500
-#define MFLowerThreshold 55.0
+#define MFLowerThreshold 40.0
 #define MFUpperThreshold 80.0
 
 typedef enum {

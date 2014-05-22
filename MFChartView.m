@@ -26,7 +26,7 @@
 #define MFGraphMinTemp      25.0
 #define MFGraphMaxTemp      95.0
 #define MFGraphMinRpm       700
-#define MFGraphMaxRpm       6500
+#define MFGraphMaxRpm       8500
 
 
 @implementation MFChartView

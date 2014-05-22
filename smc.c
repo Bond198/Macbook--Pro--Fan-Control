@@ -441,10 +441,10 @@ int main(int argc, char *argv[])
             
             temp = (temps[0] + temps[1] + temps[2]) / 3.0;
 
-           int rpm = 1500 + (temp - 50.0) * (6000 - 1500) / 30;
+           int rpm = 1500 + (temp - 50.0) * (8000 - 1500) / 30;
 
-            if (rpm > 6000)
-                rpm = 6000;
+            if (rpm > 8000)
+                rpm = 8000;
             if (rpm < 1000)
                 rpm = 1000;
             
